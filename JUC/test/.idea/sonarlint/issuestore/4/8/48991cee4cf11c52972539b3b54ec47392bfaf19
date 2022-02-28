@@ -1,0 +1,7 @@
+
+T	java:S106!"9Replace this use of System.out or System.err by a logger.(ºªù8Ï¬¯áæ/
+]	java:S125"<This block of commented-out lines of code should be removed.(Ñëîþÿÿÿÿ8«Õ¥áæ/
+Y
+java:S1128"<Remove this unused import 'java.util.concurrent.locks.Lock'.(µÒÌÿ8‘ö¿áæ/
+b
+java:S1128"ERemove this unused import 'java.util.concurrent.locks.ReentrantLock'.(òªø8‘ö¿áæ/
