@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springcloud-consumer-dept-feign:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/springcloud_consumer_dept_feign_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="springcloud-consumer-dept-feign/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springcloud-consumer-dept-feign" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

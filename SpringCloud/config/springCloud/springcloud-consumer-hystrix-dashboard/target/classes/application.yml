@@ -1,0 +1,11 @@
+server:
+  port: 9001
+
+# Eureka 配置
+eureka:
+  client:
+    register-with-eureka: false # 不向 Eureka 注册自己
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "192.168.31.133"

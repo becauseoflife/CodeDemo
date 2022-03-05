@@ -1,0 +1,6 @@
+# 用户级配置
+server:
+  port: 9999
+spring:
+  application:
+    name: springcloud-config-client-9999

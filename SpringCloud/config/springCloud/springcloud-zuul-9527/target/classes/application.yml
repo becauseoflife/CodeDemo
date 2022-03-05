@@ -1,0 +1,25 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: springcloud-zuul-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: zuul9527.com
+    prefer-ip-address: true
+
+info:
+  app.name: mianbao-springcloud
+  company.name: mianbao.com
+
+# zuul 配置
+zuul:
+  routes:
+    mydept.path: /mydept/**
+    mydept.serviceId: spring-provider-dept
+  ignored-services: spring-provider-dept  # 不能使用这个路由访问
